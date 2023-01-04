@@ -77,7 +77,6 @@ label {
 
 .flexbox-1 {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .meal-info {
@@ -114,7 +113,6 @@ label {
 .box {
     display: flex;
     gap: 15px;
-    flex-wrap: wrap;
 }
 
 .info {
