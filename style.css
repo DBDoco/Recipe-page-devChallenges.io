@@ -62,7 +62,7 @@ label {
 
 .content {
     max-width: 1000px;
-    min-width: 200px;
+    min-width: 300px;
     margin: 0 auto;
     padding-left: 11px;
     padding-right: 11px;
@@ -77,6 +77,7 @@ label {
 
 .flexbox-1 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .meal-info {
@@ -89,6 +90,7 @@ label {
     flex-direction: column;
     gap: 43px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .h2-instructions {
@@ -112,6 +114,7 @@ label {
 .box {
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -163,6 +166,7 @@ label {
     gap: 14.03px;
     justify-items: center;
     padding-left: 43px;
+    flex-wrap: wrap;
 }
 
 .icon {
@@ -189,12 +193,12 @@ label {
         line-height: 21px;
     }
 
-    label{
+    label {
         font-size: 14px;
         line-height: 25px;
     }
 
-    img{
+    img {
         margin-top: 20px;
     }
 
@@ -203,12 +207,12 @@ label {
         line-height: 15px;
     }
 
-    .info{
+    .info {
         font-size: 16px;
         line-height: 150%;
     }
 
-    .meal-info{
+    .meal-info {
         flex-direction: row;
         width: auto;
         height: auto;
@@ -219,28 +223,28 @@ label {
         justify-items: left;
     }
 
-    .flexbox-1{
+    .flexbox-1 {
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
 
-    .flexbox-2{
-        gap:5px;
+    .flexbox-2 {
+        gap: 5px;
         padding: 20px 5px;
         margin: 0;
     }
 
-    .icon{
+    .icon {
         width: 13px;
         height: 13px;
     }
 
-    .p-meal-1{
+    .p-meal-1 {
         font-size: 8px;
         line-height: 10px;
     }
 
-    .p-meal-2{
+    .p-meal-2 {
         font-size: 10px;
         line-height: 12px;
     }
